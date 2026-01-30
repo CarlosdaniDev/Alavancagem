@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #eee;
+  background: #3d3f6b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +16,14 @@ body {
   width: 420px;
   padding: 20px;
   border-radius: 8px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.46);
 }
 
 h1 {
-  background: #ff4d00;
-  color: #fff;
+  background: #7CFC00;
+  color: #000000;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.338);
+  border-radius: 5px;
   text-align: center;
   padding: 10px;
   margin-bottom: 15px;
