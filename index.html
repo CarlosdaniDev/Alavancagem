@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Alavancagem de Banca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>ALAVANCAGEM</h1>
+
+  <div class="inputs">
+    <label>
+      Banca inicial (R$)
+      <input type="number" id="banca" value="180">
+    </label>
+
+    <label>
+      Odd 1
+      <input type="number" step="0.01" id="odd1" value="1.60">
+    </label>
+
+    <label>
+      Odd 2
+      <input type="number" step="0.01" id="odd2" value="1.83">
+    </label>
+
+    <label>
+      Odd 3
+      <input type="number" step="0.01" id="odd3" value="1.50">
+    </label>
+
+    <button onclick="calcular()">Calcular</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Entrada</th>
+        <th>Odd</th>
+        <th>Retorno</th>
+      </tr>
+    </thead>
+    <tbody id="resultado"></tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Lucro</td>
+        <td id="lucro">0,00</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
