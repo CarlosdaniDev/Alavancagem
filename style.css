@@ -1,14 +1,20 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Exo 2", sans-serif;
+
 }
 
 body {
   background: #3d3f6b;
+  background-image:url(imagens/wp4624908.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -46,11 +52,12 @@ input {
 }
 
 button {
-  background: #ff4d00;
+  background: #101216;
   color: #fff;
   border: none;
   padding: 8px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
